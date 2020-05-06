@@ -10,7 +10,8 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
-  --footer-color: rgba(255, 255, 255, 0.4);
+  --footer-signature-color: rgba(255, 255, 255, 0.4);
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -22,6 +23,66 @@ body {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
+/* Header */
+
 .logo {
   color: var(--primary-text-color);
+}
+
+.web-logo {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+.hero-button {
+  color: var(--primary-white-color);
+}
+
+/* What we do */
+.feature-content {
+  color: var(--title-text-color);
+}
+
+/* Our team */
+.team-role {
+  color: var(--title-text-color);
+}
+
+/* Footer */
+.footer-logo {
+  color: var(--primary-white-color);
+}
+
+.address {
+  color: var(--primary-white-color);
+}
+
+.footer-contacts {
+  color: var(--footer-contacts-color);
+}
+
+.footer-title {
+  color: var(--primary-white-color);
+}
+
+.signature {
+  color: var(--footer-signature-color);
 }
