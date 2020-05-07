@@ -85,6 +85,7 @@ body {
 /* Hero */
 .hero-title {
   color: var(--primary-white-color);
+  text-transform: uppercase;
 }
 
 /* What we do */
@@ -95,6 +96,10 @@ body {
 /* Our team */
 .team-role {
   color: var(--title-text-color);
+}
+
+.team-section {
+  background-color: var(--secondary-background-color);
 }
 
 /* Footer */
