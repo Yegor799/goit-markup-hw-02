@@ -143,6 +143,7 @@ body {
 
 .section .text {
   color: var(--primary-white-color);
+  background-color: grey;
 }
 
 .section-list .section-title {
