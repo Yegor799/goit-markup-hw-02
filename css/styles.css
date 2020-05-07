@@ -11,6 +11,7 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --footer-background-color: #2f303a;
   --footer-signature-color: rgba(255, 255, 255, 0.4);
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --secondary-background-color: #f5f4fa;
@@ -97,6 +98,11 @@ body {
 }
 
 /* Footer */
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
 .footer-logo {
   color: var(--primary-white-color);
 }
