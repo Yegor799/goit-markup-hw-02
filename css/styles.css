@@ -115,10 +115,12 @@ body {
 
 .address {
   color: var(--primary-white-color);
+  font-style: normal;
 }
 
 .footer-contacts {
   color: var(--footer-contacts-color);
+  font-style: normal;
 }
 
 .footer-title {
