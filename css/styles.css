@@ -3,7 +3,8 @@
 /* белый #FFFFFF */
 /* акцент #2196F3 */
 /* вторичный цвет фона #F5F4FA */
-/* дополнительный цвет футера rgba(255, 255, 255, 0.4) */
+/* цвет подписи в футере rgba(255, 255, 255, 0.4) */
+/* цвет контактов в футере rgba(255, 255, 255, 0.6) */
 
 :root {
   --primary-text-color: #212121;
@@ -12,8 +13,10 @@
   --primary-white-color: #ffffff;
   --footer-signature-color: rgba(255, 255, 255, 0.4);
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --secondary-background-color: #f5f4fa;
 }
 
+/* General */
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
@@ -27,6 +30,24 @@ body {
   text-decoration: none;
 }
 
+/* Button */
+
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-background-color);
+}
+
+/* Index.html */
 /* Header */
 
 .logo {
@@ -34,6 +55,15 @@ body {
 }
 
 .web-logo {
+  color: var(--accent-color);
+}
+
+.header-contacts {
+  color: var(--title-text-color);
+}
+
+.contacts-nav .header-contacts:hover,
+.contacts-nav .header-contacts:focus {
   color: var(--accent-color);
 }
 
@@ -47,17 +77,17 @@ body {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 /* Hero */
 .hero-title {
   color: var(--primary-white-color);
 }
 
-.hero-button {
-  color: var(--primary-white-color);
-}
-
 /* What we do */
-.feature-content {
+.feature-list .feature-content {
   color: var(--title-text-color);
 }
 
@@ -85,4 +115,16 @@ body {
 
 .signature {
   color: var(--footer-signature-color);
+}
+
+/* Portfolio */
+
+.section-list .section-content {
+  color: var(--title-text-color);
+}
+
+.section-list .button:hover,
+.section-list .button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
