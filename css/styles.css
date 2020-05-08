@@ -196,6 +196,11 @@ body {
   line-height: 1.71;
 }
 
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
 .footer-title {
   color: var(--primary-white-color);
   font-weight: 700;
