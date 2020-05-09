@@ -155,13 +155,13 @@ body {
 .team-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.2;
 }
 
 .team-role {
   color: var(--title-text-color);
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.2;
 }
 
 .team-section {
