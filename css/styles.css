@@ -41,7 +41,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .list {
@@ -55,6 +55,9 @@ body {
 }
 
 .section .section-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -70,6 +73,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  min-width: 73px;
+  border-radius: 4px;
+  text-align: center;
 }
 
 .button.primary {
@@ -87,6 +93,9 @@ body {
 /* Header */
 
 .logo {
+  display: inline-block;
+  margin-top: 24px;
+
   color: var(--primary-text-color);
   font-family: Raleway;
   font-weight: 700;
@@ -137,6 +146,9 @@ body {
 }
 
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 46px;
+
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -148,16 +160,20 @@ body {
 
 .hero-button {
   display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  padding: 10px 32px;
-  border-radius: 4px;
 }
 
 /* Features */
 
 .feature-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -165,6 +181,9 @@ body {
 }
 
 .feature-list .feature-content {
+  margin-top: 0px;
+  margin-bottom: 94px;
+
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.7;
@@ -182,12 +201,16 @@ body {
 /* Our team */
 
 .team-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
 }
 
 .team-role {
+  margin-top: 0px;
+  margin-bottom: 16px;
   color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.2;
@@ -204,6 +227,9 @@ body {
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-top: 48px;
+
   color: var(--primary-white-color);
   font-family: Raleway;
   font-weight: 700;
@@ -238,7 +264,15 @@ body {
   text-transform: uppercase;
 }
 
+.container.social-links,
+.container.subscribe {
+  margin-top: 56px;
+}
+
 .copyright {
+  margin-top: 74px;
+  margin-bottom: 21px;
+
   color: var(--footer-signature-color);
   font-size: 12px;
   line-height: 2;
@@ -247,7 +281,15 @@ body {
 
 /* Portfolio */
 
+.section-list.buttons {
+  margin-top: 93px;
+  margin-bottom: 50px;
+}
+
 .section-list .section-content {
+  margin-top: 0px;
+  margin-bottom: 20px;
+
   color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.88;
@@ -260,6 +302,9 @@ body {
 }
 
 .section-list .text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   color: var(--primary-white-color);
   background-color: grey;
   font-size: 18px;
@@ -267,6 +312,9 @@ body {
 }
 
 .section-list-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
